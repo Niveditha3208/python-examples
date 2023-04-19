@@ -1,10 +1,6 @@
 import requests
 
-# Get api.video refresh token (the code is almost exactly the same as for authentication
-# but here you are retrieving the refresh token. If you want to use refresh tokens in your code,
-# when you authenticate the first time with your api key, make sure to retrieve both tokens 
-# and keep the refresh token somewhere safe. When you need it, you can use it to get another 
-# access token
+
 
 url = "https://ws.api.video/auth/api-key"
 
